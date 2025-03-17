@@ -1,0 +1,1 @@
+import{r as m}from"./index-49a7d7a3.js";let t={getCommentList:(t,e)=>m._post("/shop/comment.comment/index",t,e),getComment:(t,e)=>m._post("/shop/comment.comment/detail",t,e),editComment:(t,e)=>m._post("/shop/comment.comment/edit",t,e),delComment:(t,e)=>m._post("/shop/comment.comment/delete",t,e)};export{t as C};

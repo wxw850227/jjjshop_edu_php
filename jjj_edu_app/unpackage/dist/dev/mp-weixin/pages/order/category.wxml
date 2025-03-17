@@ -1,0 +1,1 @@
+<view class="wrap"><view class="list"><view wx:for="{{a}}" wx:for-item="v" wx:key="c" class="item" bindtap="{{v.d}}"><image class="img" src="{{v.a}}" mode="aspectFill"></image><view class="txt">{{v.b}}</view></view></view></view>

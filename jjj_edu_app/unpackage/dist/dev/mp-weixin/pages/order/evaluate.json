@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "评价",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "upload": "../../components/upload/upload",
+    "u-icon": "../../uni_modules/uview-plus/components/u-icon/u-icon"
+  }
+}

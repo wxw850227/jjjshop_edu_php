@@ -1,0 +1,1 @@
+.wrap{padding:20rpx;box-sizing:border-box}.wrap .list{display:grid;grid-template-columns:repeat(2,1fr);grid-gap:20rpx}.wrap .list .item{background:#fff;padding:14rpx 20rpx;display:flex;align-items:center;gap:20rpx;border-radius:15rpx}.wrap .list .item .img{width:96rpx;height:96rpx}.wrap .list .item .txt{font-size:30rpx;color:#333}

@@ -1,0 +1,1 @@
+<scroll-view class="ss-scroll-navbar" scroll-x scroll-left="{{b}}" scroll-with-animation="true"><view wx:for="{{a}}" wx:for-item="item" wx:key="b" class="{{['nav-item', item.c && 'current']}}" bindtap="{{item.d}}" id="{{item.e}}"><text class="title">{{item.a}}</text></view></scroll-view>

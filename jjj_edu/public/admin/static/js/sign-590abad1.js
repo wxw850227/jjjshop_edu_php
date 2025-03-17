@@ -1,0 +1,1 @@
+import{r as s}from"./index-68daabb5.js";let t={getData:(t,i)=>s._get("/shop/plus.sign/setting",t,i),saveData:(t,i)=>s._post("/shop/plus.sign/setting",t,i),getSignList:(t,i)=>s._post("/shop/plus.sign/lists",t,i)};export{t as S};

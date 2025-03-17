@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+</head>
+<body>
+<noscript>
+  <strong>Please enable JavaScript to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+<!-- uni 的 SDK -->
+<script type="text/javascript" src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.2.js"></script>
+<script>
+  document.addEventListener('UniAppJSBridgeReady', function() {
+    //向uniapp传值
+    uni.postMessage({
+      data: {
+        action: 'success'
+      }
+    });
+    uni.getEnv(function(res) {
+      console.log('当前环境：' + JSON.stringify(res));
+    });
+  });
+</script>    

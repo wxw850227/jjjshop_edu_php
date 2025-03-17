@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "课程学习",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "recourd-vue": "./part/recourd"
+  }
+}

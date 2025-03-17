@@ -1,0 +1,1 @@
+<view class="diy-video" style="{{'padding:' + e}}"><video style="{{'height:' + a}}" src="{{b}}" poster="{{c}}" autoplay="{{d}}" controls objectFit="contain"></video></view>

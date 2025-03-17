@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "../../../components/uni-load-more",
+    "u-icon": "../../../uni_modules/uview-plus/components/u-icon/u-icon"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "考试详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "../../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-rate": "../../../uni_modules/uview-plus/components/u-rate/u-rate",
+    "u-parse": "../../../uni_modules/uview-plus/components/u-parse/u-parse"
+  }
+}

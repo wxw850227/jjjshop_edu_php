@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "diy": "../../components/diy/diy",
+    "homepush": "./home-push/home-push"
+  }
+}

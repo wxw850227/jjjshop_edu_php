@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "vue-router": "^4.2.4",
+    "weixin-js-sdk": "^1.6.0"
+  }
+}

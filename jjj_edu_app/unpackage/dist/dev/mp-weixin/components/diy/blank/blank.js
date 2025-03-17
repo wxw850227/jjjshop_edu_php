@@ -1,0 +1,1 @@
+"use strict";const t=require("../../../common/vendor.js"),n={data(){return{}},props:["itemData"],methods:{}};function a(r,s,e,_,c,p){return{a:e.itemData.style.height+"px",b:e.itemData.style.background}}const o=t._export_sfc(n,[["render",a],["__file","D:/phpstudy_pro/www3/jjj_edu_small/jjj_edu_app/components/diy/blank/blank.vue"]]);wx.createComponent(o);

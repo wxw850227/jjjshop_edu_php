@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "收藏的题",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "../../../components/uni-load-more",
+    "empty": "../../../components/empty"
+  }
+}

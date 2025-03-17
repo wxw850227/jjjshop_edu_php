@@ -1,0 +1,1 @@
+<view><view class="diy-navbar" style="{{'background:' + c}}"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="item" style="{{b}}" bindtap="{{item.e}}"><image src="{{item.a}}" mode="widthFix"></image><text class="gray3" style="{{'color:' + item.c}}">{{item.b}}</text></view></view></view>

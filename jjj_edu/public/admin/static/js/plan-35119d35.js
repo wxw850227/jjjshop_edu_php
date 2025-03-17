@@ -1,0 +1,1 @@
+import{r as l}from"./index-68daabb5.js";let p={listPlan:(p,e)=>l._post("/shop/plus.live.plan/index",p,e),addPlan:(p,e)=>l._get("/shop/plus.live.plan/add",p,e),editPlan:(p,e)=>l._post("/shop/plus.live.plan/edit",p,e),deletePlan:(p,e)=>l._get("/shop/plus.live.plan/delete",p,e),log:(p,e)=>l._post("/shop/plus.live.plan/log",p,e)};export{p as P};

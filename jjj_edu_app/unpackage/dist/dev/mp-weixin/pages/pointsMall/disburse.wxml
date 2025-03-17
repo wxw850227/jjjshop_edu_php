@@ -1,0 +1,1 @@
+<view class="wrap data-v-84ca32bb"><view class="list data-v-84ca32bb"><view wx:for="{{a}}" wx:for-item="v" wx:key="d" class="item data-v-84ca32bb"><view class="l data-v-84ca32bb"><view class="title data-v-84ca32bb">{{v.a}}</view><view class="time data-v-84ca32bb">{{v.b}}</view></view><view class="r data-v-84ca32bb">{{v.c}}积分 </view></view></view></view>

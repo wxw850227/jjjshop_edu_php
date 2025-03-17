@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "学习记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "zs-tab": "../../../components/zs-tab"
+  }
+}

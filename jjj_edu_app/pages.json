@@ -1,0 +1,719 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/knowledge/index",
+			"style": {
+				"navigationBarTitleText": "课程",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/eduadmin/index",
+			"style": {
+				"navigationBarTitleText": "教务",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/eduadmin/detail",
+			"style": {
+				"navigationBarTitleText": "教务详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/examination/index",
+			"style": {
+				"navigationBarTitleText": "考试",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/knowledge/question/list",
+			"style": {
+				"navigationBarTitleText": "真题",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/order/category",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/order/course",
+			"style": {
+				"navigationBarTitleText": "课程订单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/order/teacher",
+			"style": {
+				"navigationBarTitleText": "教务订单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		// {
+		// "path": "pages/order/list",
+		// "style": {
+		// 	"navigationBarTitleText": "我的订单",
+		// 	"enablePullDownRefresh": false,
+		// 	"app-plus": {
+		// 		//#ifdef H5
+		// 		"titleNView": false
+		// 		//#endif
+		// 	}
+		// }
+		// },
+		{
+			"path": "pages/order/confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/login/weblogin",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/login/mplogin",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/learning/record",
+			"style": {
+				"navigationBarTitleText": "学习记录",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/collect/index",
+			"style": {
+				"navigationBarTitleText": "我的课程",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/my-wallet/my-wallet",
+			"style": {
+				"navigationBarTitleText": "我的余额",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/examination/wrong/list",
+			"style": {
+				"navigationBarTitleText": "错题集",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/examination/wrong/detail",
+			"style": {
+				"navigationBarTitleText": "错题详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/examination/train/list",
+			"style": {
+				"navigationBarTitleText": "练习题",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/examination/exam/list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/examination/practice/list",
+			"style": {
+				"navigationBarTitleText": "练习列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/class/index",
+			"style": {
+				"navigationBarTitleText": "我的班级",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/news/list",
+			"style": {
+				"navigationBarTitleText": "新闻列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/news/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/order/recharge",
+			"style": {
+				"navigationBarTitleText": "充值中心",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/collect/subject",
+			"style": {
+				"navigationBarTitleText": "收藏的题",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/knowledge/course/detail",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/knowledge/course/section-detail",
+			"style": {
+				"navigationBarTitleText": "课程学习",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/set/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/knowledge/question/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/knowledge/lecturer/index",
+			"style": {
+				"navigationBarTitleText": "讲师列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/knowledge/lecturer/detail",
+			"style": {
+				"navigationBarTitleText": "讲师详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/knowledge/lecturer/apply",
+			"style": {
+				"navigationBarTitleText": "讲师申请",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/examination/exam/detail",
+			"style": {
+				"navigationBarTitleText": "考试详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/examination/exam/start",
+			"style": {
+				"navigationBarTitleText": "考试详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/examination/exam/answerSheet",
+			"style": {
+				"navigationBarTitleText": "答题卡",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/examination/record/list",
+			"style": {
+				"navigationBarTitleText": "练习记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/examination/record/detail",
+			"style": {
+				"navigationBarTitleText": "试卷结果",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/examination/exam/analysis",
+			"style": {
+				"navigationBarTitleText": "试卷解析",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/collect/subdetail",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/address/add/add",
+			"style": {
+				"navigationBarTitleText": "添加地址",
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/user/address/edit/edit",
+			"style": {
+				"navigationBarTitleText": "修改地址",
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/pointsMall/index",
+			"style": {
+				"navigationBarTitleText": "积分商城",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/pointsMall/exchange",
+			"style": {
+				"navigationBarTitleText": "积分兑换",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/pointsMall/disburse",
+			"style": {
+				"navigationBarTitleText": "积分明细",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/pointsMall/orderList",
+			"style": {
+				"navigationBarTitleText": "兑换明细",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/pointsMall/orderDetail",
+			"style": {
+				"navigationBarTitleText": "积分订单详情",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/order/cashier",
+			"style": {
+				"navigationBarTitleText": "收银台",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏 
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/paySuccess/point",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏 
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/paySuccess/course",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏 
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/order/evaluate",
+			"style": {
+				"navigationBarTitleText": "评价",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": false, //禁用原生导航栏 
+					"scrollIndicator": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/plus/signin/signin",
+			"style": {
+				"navigationBarTitleText": "签到有礼",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/lecturer/list",
+			"style": {
+				"navigationBarTitleText": "讲师列表",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/lecturer/fav",
+			"style": {
+				"navigationBarTitleText": "我的关注",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/common/webview",
+			"style": {
+				"navigationBarTitleText": "直播课",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/common/service",
+			"style": {
+				"navigationBarTitleText": "客服",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					//#ifdef H5
+					"titleNView": false
+					//#endif
+				}
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#ff5a5a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/tabbar/nav01.png",
+				"selectedIconPath": "/static/tabbar/nav010.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/knowledge/index",
+				"iconPath": "/static/tabbar/nav02.png",
+				"selectedIconPath": "/static/tabbar/nav020.png",
+				"text": "课程"
+			},
+			{
+				"pagePath": "pages/eduadmin/index",
+				"iconPath": "/static/tabbar/nav03.png",
+				"selectedIconPath": "/static/tabbar/nav030.png",
+				"text": "教务"
+			},
+			{
+				"pagePath": "pages/examination/index",
+				"iconPath": "/static/tabbar/nav04.png",
+				"selectedIconPath": "/static/tabbar/nav040.png",
+				"text": "题库"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "/static/tabbar/nav05.png",
+				"selectedIconPath": "/static/tabbar/nav050.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

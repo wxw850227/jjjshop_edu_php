@@ -1,0 +1,1 @@
+"use strict";const e=require("../../../common/vendor.js"),r={data(){return{}},methods:{}};function t(n,o,s,a,c,p){return{}}const _=e._export_sfc(r,[["render",t],["__file","D:/phpstudy_pro/www3/jjj_edu_small/jjj_edu_app/pages/knowledge/lecturer/apply.vue"]]);wx.createPage(_);

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "讲师详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "zs-tab": "../../../components/zs-tab",
+    "empty": "../../../components/empty",
+    "u-parse": "../../../uni_modules/uview-plus/components/u-parse/u-parse"
+  }
+}

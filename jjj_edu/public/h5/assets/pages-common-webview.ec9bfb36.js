@@ -1,0 +1,1 @@
+import{_ as o,o as r,a as s,am as n}from"./index-db1fe3c3.js";const a=o({data:()=>({url:""}),onLoad(o){this.url=decodeURIComponent(o.url),console.log(this.url)}},[["render",function(o,a,t,e,l,u){const c=n;return r(),s(c,{src:l.url},null,8,["src"])}]]);export{a as default};

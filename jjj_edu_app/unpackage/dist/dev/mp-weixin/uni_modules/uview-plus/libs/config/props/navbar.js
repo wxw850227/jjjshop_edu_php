@@ -1,0 +1,1 @@
+"use strict";const e=require("../color.js"),t={navbar:{safeAreaInsetTop:!0,placeholder:!1,fixed:!0,border:!1,leftIcon:"arrow-left",leftText:"",rightText:"",rightIcon:"",title:"",bgColor:"#ffffff",titleWidth:"400rpx",height:"44px",leftIconSize:20,leftIconColor:e.color.mainColor,autoBack:!1,titleStyle:""}};exports.Navbar=t;

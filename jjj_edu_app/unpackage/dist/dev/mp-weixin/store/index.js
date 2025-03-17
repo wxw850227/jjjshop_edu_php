@@ -1,0 +1,1 @@
+"use strict";const a=require("../common/vendor.js"),o=a.createStore({state:{theme:"",footTab:"",points_name:"积分",navTargetCategory:null},mutations:{changeTheme(e,t){e.theme=t},changefootTab(e,t){e.footTab=t},changePoints(e,t){e.points_name=t},changNavTargetCategory(e,t){e.navTargetCategory=t}},getters:{},actions:{}});exports.store=o;

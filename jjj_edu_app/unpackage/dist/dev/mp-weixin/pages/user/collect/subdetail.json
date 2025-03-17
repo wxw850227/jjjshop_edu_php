@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的收藏",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "../../../uni_modules/uview-plus/components/u-icon/u-icon",
+    "u-parse": "../../../uni_modules/uview-plus/components/u-parse/u-parse"
+  }
+}

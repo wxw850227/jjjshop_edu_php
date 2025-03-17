@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的余额",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "../../../components/uni-load-more",
+    "zs-tab": "../../../components/zs-tab"
+  }
+}

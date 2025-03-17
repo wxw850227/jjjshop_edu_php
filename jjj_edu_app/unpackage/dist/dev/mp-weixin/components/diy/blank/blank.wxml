@@ -1,0 +1,1 @@
+<view class="diy-blank" style="{{'height:' + a + ';' + ('background:' + b)}}"></view>

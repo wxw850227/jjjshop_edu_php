@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的班级",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "concat-mask": "../../../components/concatMask",
+    "empty": "../../../components/empty",
+    "uni-load-more": "../../../components/uni-load-more"
+  }
+}

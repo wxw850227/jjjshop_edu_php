@@ -1,0 +1,1 @@
+import{_ as o,o as r,a as s,al as n}from"./index-4d017ba3.js";const a=o({data:()=>({url:""}),onLoad(o){this.url=decodeURIComponent(o.url),console.log(this.url)}},[["render",function(o,a,l,t,e,u){const c=n;return r(),s(c,{src:e.url},null,8,["src"])}]]);export{a as default};

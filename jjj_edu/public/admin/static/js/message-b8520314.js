@@ -1,0 +1,1 @@
+import{r as s}from"./index-2e57a1f5.js";let t={messageList:(t,e)=>s._post("/shop/setting.message/index",t,e),fieldList:(t,e)=>s._post("/shop/setting.message/field",t,e),saveSettings:(t,e)=>s._post("/shop/setting.message/saveSettings",t,e),updateSettingsStatus:(t,e)=>s._post("/shop/setting.message/updateSettingsStatus",t,e)};export{t as M};

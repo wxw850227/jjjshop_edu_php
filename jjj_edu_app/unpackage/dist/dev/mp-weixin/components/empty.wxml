@@ -1,0 +1,1 @@
+<view class="emptyWrap data-v-4ccfcf60" style="{{'height:' + c}}"><view class="emptyBox data-v-4ccfcf60"><image class="img data-v-4ccfcf60" src="{{a}}" mode=""></image><view class="desc data-v-4ccfcf60">{{b}}</view><slot/></view></view>

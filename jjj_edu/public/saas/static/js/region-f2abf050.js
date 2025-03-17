@@ -1,0 +1,1 @@
+import{r as e}from"./request-354c9ec4.js";let i={regionList:(i,d)=>e._post("/admin/region/index",i,d),toAddRegion:(i,d)=>e._get("/admin/region/add",i,d),addRegion:(i,d)=>e._post("/admin/region/add",i,d),regionDetail:(i,d)=>e._get("/admin/region/edit",i,d),editRegion:(i,d)=>e._post("/admin/region/edit",i,d),deleteRegion:(i,d)=>e._post("/admin/region/delete",i,d)};export{i as R};

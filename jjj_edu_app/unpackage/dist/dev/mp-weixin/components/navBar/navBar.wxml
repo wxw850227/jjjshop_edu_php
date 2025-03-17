@@ -1,0 +1,1 @@
+<view><scroll-view scroll-y="true" class="scroll" bindscroll="{{d}}"><view class="{{['navbar-section', c && 'navbar-fixed-section']}}"><ss-scroll-navbar wx:if="{{b}}" bindnavbarTap="{{a}}" u-i="d68809b4-0" bind:__l="__l" u-p="{{b}}"></ss-scroll-navbar></view></scroll-view></view>

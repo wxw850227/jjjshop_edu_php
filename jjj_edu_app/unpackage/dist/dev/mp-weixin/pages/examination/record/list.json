@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "练习记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "../../../components/uni-load-more"
+  }
+}

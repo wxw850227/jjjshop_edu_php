@@ -1,0 +1,1 @@
+.collect-list .collect-item{padding:25rpx 20rpx;margin-bottom:24rpx;background:#FFFFFF;border-radius:15rpx}.collect-list .btn-img{width:46rpx;height:46rpx;background:#FFFFFF;flex-shrink:0}.collect-list .item-top{border-bottom:1px dotted #ddd;padding-bottom:20rpx}.collect-list .item-text{line-height:48rpx}

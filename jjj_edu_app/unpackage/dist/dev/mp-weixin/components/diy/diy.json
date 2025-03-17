@@ -1,0 +1,22 @@
+{
+  "component": true,
+  "usingComponents": {
+    "banner": "./banner/banner",
+    "imagesingle": "./imagesingle/imagesingle",
+    "windows": "./window/window",
+    "videos": "./videos/videos",
+    "articles": "./article/article",
+    "special": "./special/special",
+    "notice": "./notice/notice",
+    "titles": "./title/title",
+    "rich-text": "./richText/richText",
+    "nav-bar": "./navBar/navBar",
+    "service": "./service/service",
+    "blank": "./blank/blank",
+    "guide": "./guide/guide",
+    "lecturer": "./lecturer/lecturer",
+    "course": "./course/course",
+    "train": "./train/train",
+    "education": "./education/education"
+  }
+}

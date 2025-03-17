@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "教务详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "app-share": "../../components/app-share",
+    "concat-mask": "../../components/concatMask",
+    "share": "../knowledge/course/part/share",
+    "empty": "../../components/empty",
+    "comment": "./part/comment"
+  }
+}

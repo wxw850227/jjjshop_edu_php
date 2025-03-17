@@ -1,0 +1,1 @@
+<view class="diy-imageSingle" style="{{b}}"><view wx:for="{{a}}" wx:for-item="imageSingle" wx:key="b" class="d-c-c" bindtap="{{imageSingle.c}}"><image src="{{imageSingle.a}}" mode="widthFix"></image></view></view>

@@ -1,0 +1,116 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/knowledge/index",
+    "pages/eduadmin/index",
+    "pages/eduadmin/detail",
+    "pages/examination/index",
+    "pages/user/index",
+    "pages/knowledge/question/list",
+    "pages/order/category",
+    "pages/order/course",
+    "pages/order/exam",
+    "pages/order/teacher",
+    "pages/order/confirm",
+    "pages/login/weblogin",
+    "pages/login/login",
+    "pages/user/learning/record",
+    "pages/user/collect/index",
+    "pages/user/my-wallet/my-wallet",
+    "pages/examination/wrong/list",
+    "pages/examination/wrong/detail",
+    "pages/examination/train/list",
+    "pages/examination/exam/list",
+    "pages/examination/practice/list",
+    "pages/user/class/index",
+    "pages/news/list",
+    "pages/news/detail",
+    "pages/order/detail",
+    "pages/order/recharge",
+    "pages/user/collect/subject",
+    "pages/knowledge/course/detail",
+    "pages/knowledge/course/section-detail",
+    "pages/user/set/set",
+    "pages/knowledge/question/index",
+    "pages/knowledge/lecturer/index",
+    "pages/knowledge/lecturer/detail",
+    "pages/knowledge/lecturer/apply",
+    "pages/examination/exam/detail",
+    "pages/examination/exam/start",
+    "pages/examination/exam/answerSheet",
+    "pages/examination/record/list",
+    "pages/examination/record/detail",
+    "pages/examination/exam/analysis",
+    "pages/user/collect/subdetail",
+    "pages/user/address/address",
+    "pages/user/address/add/add",
+    "pages/user/address/edit/edit",
+    "pages/pointsMall/index",
+    "pages/pointsMall/exchange",
+    "pages/pointsMall/disburse",
+    "pages/pointsMall/orderList",
+    "pages/pointsMall/orderDetail",
+    "pages/order/cashier",
+    "pages/order/paySuccess/point",
+    "pages/order/paySuccess/course",
+    "pages/order/evaluate",
+    "pages/plus/signin/signin",
+    "pages/lecturer/list",
+    "pages/lecturer/fav",
+    "pages/common/webview",
+    "pages/common/service",
+    "pages/webview/webview"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff5a5a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/tabbar/nav01.png",
+        "selectedIconPath": "/static/tabbar/nav010.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/knowledge/index",
+        "iconPath": "/static/tabbar/nav02.png",
+        "selectedIconPath": "/static/tabbar/nav020.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/eduadmin/index",
+        "iconPath": "/static/tabbar/nav03.png",
+        "selectedIconPath": "/static/tabbar/nav030.png",
+        "text": "教务"
+      },
+      {
+        "pagePath": "pages/examination/index",
+        "iconPath": "/static/tabbar/nav04.png",
+        "selectedIconPath": "/static/tabbar/nav040.png",
+        "text": "题库"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "/static/tabbar/nav05.png",
+        "selectedIconPath": "/static/tabbar/nav050.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {
+    "header-bar": "/components/header"
+  }
+}

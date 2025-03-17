@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "错题集",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-load-more": "../../../components/uni-load-more"
+  }
+}

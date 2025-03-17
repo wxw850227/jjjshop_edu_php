@@ -1,0 +1,1 @@
+const r=t=>{var o=Array.isArray(t)?[]:{};if(t&&"object"==typeof t)for(var e in t)t.hasOwnProperty(e)&&(t[e]&&"object"==typeof t[e]?o[e]=r(t[e]):o[e]=t[e]);return o},t=(r,o)=>{for(var e in r)o&&void 0!==o[e]&&(r[e]&&"[object Object]"===Object.prototype.toString.call(r[e])?t(r[e],o[e]):r[e]=o[e]);return r};export{r as d,t as f};

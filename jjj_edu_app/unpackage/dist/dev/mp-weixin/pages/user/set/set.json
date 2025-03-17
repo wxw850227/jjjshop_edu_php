@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "设置",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "upload": "../../../components/upload/upload",
+    "popup": "../../../components/uni-popup"
+  }
+}

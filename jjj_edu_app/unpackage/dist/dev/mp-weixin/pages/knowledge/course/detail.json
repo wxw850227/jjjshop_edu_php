@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "课程详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "share": "./part/share",
+    "buy": "./part/buy",
+    "comment": "./part/comment",
+    "empty": "../../../components/empty"
+  }
+}
