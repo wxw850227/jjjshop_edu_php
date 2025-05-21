@@ -1,17 +1,34 @@
 <template>
-  <!--
-        作者：luoyiming
-        时间：2020-01-08
-        描述：超链接选择
-    -->
-  <el-dialog title="超链接设置" append-to-body v-model="dialogVisible" @close="dialogFormVisible"
-    :close-on-click-modal="false" :close-on-press-escape="false" width="800px">
+  <el-dialog
+    title="超链接设置"
+    append-to-body
+    v-model="dialogVisible"
+    @close="dialogFormVisible"
+    :close-on-click-modal="false"
+    :close-on-press-escape="false"
+    width="800px"
+  >
     <!--内容-->
     <el-tabs type="border-card" v-model="activeName">
       <!--页面-->
-      <el-tab-pane label="页面" name="pages"><Pages v-if="activeName == 'pages'" @changeData="activeDataFunc"></Pages></el-tab-pane>
-      <el-tab-pane label="文章" name="Article"><Article v-if="activeName == 'Article'" @changeData="activeDataFunc"></Article></el-tab-pane>
-      <el-tab-pane label="自定义" name="diypage"><DiyPage v-if="activeName == 'diypage'" @changeData="activeDataFunc"></DiyPage></el-tab-pane>
+      <el-tab-pane label="页面" name="pages"
+        ><Pages
+          v-if="activeName == 'pages'"
+          @changeData="activeDataFunc"
+        ></Pages
+      ></el-tab-pane>
+      <el-tab-pane label="文章" name="Article"
+        ><Article
+          v-if="activeName == 'Article'"
+          @changeData="activeDataFunc"
+        ></Article
+      ></el-tab-pane>
+      <el-tab-pane label="自定义" name="diypage"
+        ><DiyPage
+          v-if="activeName == 'diypage'"
+          @changeData="activeDataFunc"
+        ></DiyPage
+      ></el-tab-pane>
     </el-tabs>
     <template #footer>
       <div class="dialog-footer d-b-c">
@@ -23,15 +40,22 @@
               <span class="p-0-10 gray">/</span>
               <span class="blue">{{ activeData.name }}</span>
             </p>
-            <p class="text-ellipsis gray" style="font-size: 10px;">{{ activeData.url }}</p>
+            <p class="text-ellipsis gray" style="font-size: 10px">
+              {{ activeData.url }}
+            </p>
           </div>
-          <div v-else class="tl">
-            暂无
-          </div>
+          <div v-else class="tl">暂无</div>
         </div>
         <div class="setlink-footer-btn">
-          <el-button size="small" @click="dialogFormVisible(false)">取 消</el-button>
-          <el-button size="small" type="primary" @click="dialogFormVisible(true)">确 定</el-button>
+          <el-button size="small" @click="dialogFormVisible(false)"
+            >取 消</el-button
+          >
+          <el-button
+            size="small"
+            type="primary"
+            @click="dialogFormVisible(true)"
+            >确 定</el-button
+          >
         </div>
       </div>
     </template>
@@ -39,18 +63,18 @@
 </template>
 
 <script>
-import Pages from './part/Pages.vue';
-import DiyPage from './part/DiyPage.vue';
-import Article from './part/Article.vue';
-import SmallProgram from './part/SmallProgram.vue';
-import H5 from './part/H5.vue';
+import Pages from "./part/Pages.vue";
+import DiyPage from "./part/DiyPage.vue";
+import Article from "./part/Article.vue";
+import SmallProgram from "./part/SmallProgram.vue";
+import H5 from "./part/H5.vue";
 export default {
   components: {
     Pages,
     Article,
     SmallProgram,
     H5,
-    DiyPage
+    DiyPage,
   },
   data() {
     return {
@@ -58,10 +82,10 @@ export default {
       dialogVisible: true,
       /*选中的链接*/
       activeData: null,
-      activeName: 'pages'
+      activeName: "pages",
     };
   },
-  props: ['is_linkset'],
+  props: ["is_linkset"],
   created() {
     this.dialogVisible = this.is_linkset;
   },
@@ -69,23 +93,23 @@ export default {
     /*关闭弹窗*/
     dialogFormVisible(e) {
       if (e) {
-        if(this.activeData.url.indexOf('giftpackage') != -1){
-          this.activeData.name = '礼包购-' + this.activeData.name;
+        if (this.activeData.url.indexOf("giftpackage") != -1) {
+          this.activeData.name = "礼包购-" + this.activeData.name;
         }
-        if(this.activeData.url.indexOf('invite') != -1){
-          this.activeData.name = '邀请有礼-' + this.activeData.name;
+        if (this.activeData.url.indexOf("invite") != -1) {
+          this.activeData.name = "邀请有礼-" + this.activeData.name;
         }
-        this.$emit('closeDialog', this.activeData);
+        this.$emit("closeDialog", this.activeData);
       } else {
-        this.$emit('closeDialog', null);
+        this.$emit("closeDialog", null);
       }
     },
 
     /*页面返回值*/
     activeDataFunc(e) {
       this.activeData = e;
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -93,6 +117,10 @@ export default {
 .marketing-box .el-tabs__item {
   font-size: 12px;
 }
-.setlink-footer-btn{ width: 160px;}
-.setlink-set-link{ width: 500px;}
+.setlink-footer-btn {
+  width: 160px;
+}
+.setlink-set-link {
+  width: 500px;
+}
 </style>

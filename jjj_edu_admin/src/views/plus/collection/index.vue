@@ -1,38 +1,51 @@
 <template>
-  <!--
-          作者：luoyiming
-          时间：2019-10-24
-          描述：设置引导收藏
-      -->
   <div class="attention">
     <div class="attention-left"><img :src="mobile_url" alt="" /></div>
     <div class="attention-right">
       <div class="alert-warning">
-        <div class="alert-icon"><span class="icon iconfont icon-gantanhao"></span></div>
-        <span class="alert-desc"><div>1.新用户首次进入小程序的时候才会显示如图所示的弹窗提示，只显示一次！</div></span>
+        <div class="alert-icon">
+          <span class="icon iconfont icon-gantanhao"></span>
+        </div>
+        <span class="alert-desc"
+          ><div>
+            1.新用户首次进入小程序的时候才会显示如图所示的弹窗提示，只显示一次！
+          </div></span
+        >
       </div>
-      <el-form ref="form" size="small" :model="form" :rules="rules" label-width="100px">
-        <el-form-item label="引导收藏" prop="status"><el-switch v-model="form.status"></el-switch></el-form-item>
+      <el-form
+        ref="form"
+        size="small"
+        :model="form"
+        :rules="rules"
+        label-width="100px"
+      >
+        <el-form-item label="引导收藏" prop="status"
+          ><el-switch v-model="form.status"></el-switch
+        ></el-form-item>
         <!--提交-->
-        <div class="common-button-wrapper"><el-button type="primary" @click="onSubmit" :loading="loading">提交</el-button></div>
+        <div class="common-button-wrapper">
+          <el-button type="primary" @click="onSubmit" :loading="loading"
+            >提交</el-button
+          >
+        </div>
       </el-form>
     </div>
   </div>
 </template>
 
 <script>
-import mobile from '@/assets/img/guidcollection.png';
-import CollectionApi from '@/api/collection.js';
+import mobile from "@/assets/img/guidcollection.png";
+import CollectionApi from "@/api/collection.js";
 export default {
   data() {
     return {
       /*手机图像*/
       mobile_url: mobile,
       form: {
-        status: 0
+        status: 0,
       },
       Data: [],
-      loading: false
+      loading: false,
     };
   },
   created() {
@@ -45,44 +58,44 @@ export default {
       let self = this;
       let Params = {};
       CollectionApi.getData(Params, true)
-        .then(data => {
+        .then((data) => {
           self.loading = false;
-          if(data.data.vars.values.status=='1'){
+          if (data.data.vars.values.status == "1") {
             self.form.status = true;
-          }else{
+          } else {
             self.form.status = false;
           }
           self.form.app_id = data.data.app_id;
         })
-        .catch(error => {});
+        .catch((error) => {});
     },
     onSubmit() {
       let self = this;
-      let params={};
-      if(self.form.status){
-        params.status=1;
-      }else{
-        params.status=0;
+      let params = {};
+      if (self.form.status) {
+        params.status = 1;
+      } else {
+        params.status = 0;
       }
       self.loading = true;
       CollectionApi.saveData(params, true)
-        .then(data => {
+        .then((data) => {
           self.loading = false;
           if (data.code == 1) {
             ElMessage({
-              message: '恭喜你，保存成功',
-              type: 'success'
+              message: "恭喜你，保存成功",
+              type: "success",
             });
             self.getData();
           } else {
             self.loading = false;
           }
         })
-        .catch(error => {
+        .catch((error) => {
           self.loading = false;
         });
-    }
-  }
+    },
+  },
 };
 </script>
 
